@@ -11,7 +11,9 @@
 
 .promo {
     background-image: url(../img/main_bg.jpg);
-    height: 800px;
+    background-size: auto 800px;
+    background-repeat: no-repeat;
+    height: 820px;
     padding: 39px 0 64px 0;
 }
 
@@ -77,11 +79,16 @@
     margin: 72px auto;
     padding: 25px;
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 50px 80px 10px rgba(0, 0, 0, 0.4);
     font-family: 'RobotoCondensed';
     font-size: 21px;
+    line-height: 24px;
     text-transform: uppercase;
     color: #FFFFFF;
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    outline: none;
+    cursor: pointer;
+
 }
 
 .text-down {
@@ -99,4 +106,161 @@
 .down-img {
     display: block;
     margin: 0 auto;
+}
+
+.weiting {
+    margin-top: 60px;
+    min-height: 600px;
+    background: #EFEFEF;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper .header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+    padding-top: 80px;
+}
+
+.subheader {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-bottom: 45px;
+}
+
+.information-box {
+    text-align: center;
+    width: 342px;
+}
+
+.wrapper-information-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discription {
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.wrapper .line {
+    width: 220px;
+    margin-top: 18px;
+    height: 4px;
+    background: #F9BF3B;
+    margin: 18px auto;
+}
+
+.girl {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    
+    background-image: url(../img/woman_bg.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 47px;
+}
+
+.girl-wrapper {
+    margin-left: 400px;
+    margin-top: -40px;
+}
+
+.girl-header {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.girl-discription {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+    color: #4A4A4A;
+    margin-top: 30px;
+}
+
+/*you-can*************************************/
+
+.you-can {
+    background-image: url(../img/second_bg.jpg);
+    height: 450px;
+}
+
+.you-can-header {
+    padding: 86px 0 18px 0;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #EFEFEF;
+}
+
+
+
+.line-you-can-header {
+    width: 220px;
+    height: 3px;
+    background: #F9BF3B;
+    margin: 0 auto 39px;
+}
+
+.main {
+
+}
+
+.main-img {
+    
+}
+
+.wrap-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #B4E2FF;
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
+}
+
+.main-discription {
+    width: 180px;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #EFEFEF;
 }
