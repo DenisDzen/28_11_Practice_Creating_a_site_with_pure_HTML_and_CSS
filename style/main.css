@@ -79,7 +79,7 @@
     margin: 72px auto;
     padding: 25px;
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
-    box-shadow: 50px 80px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
     font-family: 'RobotoCondensed';
     font-size: 21px;
     line-height: 24px;
@@ -229,14 +229,6 @@
     margin: 0 auto 39px;
 }
 
-.main {
-
-}
-
-.main-img {
-    
-}
-
 .wrap-main {
     display: flex;
     justify-content: space-between;
@@ -263,4 +255,118 @@
     font-size: 17px;
     line-height: 20px;
     color: #EFEFEF;
+}
+
+/*GIFT SECTION*/
+
+.gift {
+    background: #EFEFEF;
+    min-height: 640px;
+}
+
+.gift-img {
+    display: block;
+    padding: 85px 0 0 0;
+    margin: 0 auto;
+}
+
+.gift-text {
+    margin: 45px 0 45px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    color: #252525;
+    text-align: center;
+}
+
+/*First Webinar*/
+
+.first-webinar {
+    min-height: 520px;
+}
+
+.first-webinar-img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
+.title-webinar {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #252525;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.subtitle-webinar {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+    padding-top: 30px;
+}
+
+.sub-sub-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+    padding-top: 25px;
+}
+
+.footer {
+    height: 170px;
+    background-color: #000000;
+}
+
+.wrapper-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.support {
+    color: #888888;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    border-right: 2px solid #888888;
+    line-height: 21px;
+    padding-right: 5px;
+    margin-top: 70px;
+}
+
+.politica {
+    padding-left: 5px;
+    margin-top: 70px;
+    color: #888888;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.call {
+    color: #888888;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
 }
